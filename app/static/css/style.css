@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Bangers);
+@import url(http://fonts.googleapis.com/css?family=Abel);
+
+body{
+  background-color: #D6D6D6;
+}
+
+h1{
+  font-family: 'Bangers', cursive;
+  background-color: grey;
+  font-size: 70px;
+  text-align: center;
+}
+
+nav{
+  border: 5px solid grey;
+  text-align: center;
+}
+
+nav a{
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  border: 5px solid black;
+  padding: 10px;
+  margin: 10px;
+  width: 105px;
+  height: 25px;
+
+}
+nav a:hover{
+  background-color: white;
+}
+
+h3{
+  font-family: 'Abel', sans-serif;
+}
+td{
+  font-family: 'Abel', sans-serif;
+}
+
+td img{
+  height: 90px;
+  width: 130px;
+}
+
+table{
+  padding: 10px;
+  border-spacing: 0px;
+  font-family: 'Abel', sans-serif;
+  width: 100%;
+  border: 3px solid black;
+  font-size: 20px;
+  top-margin: 10px;
+}

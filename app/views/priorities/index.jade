@@ -9,6 +9,7 @@ block content
         td Value
     tbody
       each priority in priorities
-        tr= name
-        tr: div(style="color: #{color}, padding: 2px")
-        tr= value
+        tr(style="background-color: #{priority.color}")
+          td= priority.name
+          td
+          td= priority.value
