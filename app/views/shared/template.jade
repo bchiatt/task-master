@@ -5,16 +5,15 @@ html
     title Task Master 
     link(rel='stylesheet', href='/css/style.css')
   body
-    h1 The Task Master App
+    h1 The Task Master
     nav
-      #home: a(href="/") Home
-      #about: a(href="/about") About
-      #contact: a(href="/contact") Contact
-      #faq: a(href="/faq") FAQ
-      #priority: a(href="/priorities/new") Create New Priortiy
-      #priorities: a(href="/priorities") Show All Priorities
-
-      //#task: a(href="/tasks/new") Create New Task
-      //#tasks: a(href="/tasks") Show All Tasks
+      a(href="/") Home
+      a(href="/about") About
+      a(href="/contact") Contact
+      a(href="/faq") FAQ
+      a(href="/priorities/new") New Priortiy
+      a(href="/priorities") All Priorities
+      a(href="/tasks/new") New Task
+      a(href="/tasks") All Tasks
 
   block content

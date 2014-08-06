@@ -20,7 +20,7 @@ Priority.prototype.insert = function(cb){
 };
 
 Priority.all = function(cb){
-  Priority.collection.find({}).toArray(function(err, object){
+  Priority.collection.find().toArray(function(err, object){
     var priority = object.map(function(o){
       return changeProto(o);
     });

@@ -1,3 +1,23 @@
 extends ../shared/template
 
 block content
+  table
+    thead
+      tr
+        td Name
+        td Due Date
+        td Photo
+        td Complete
+        td Tags
+        td Priority
+    tbody
+      each task in tasks
+        tr(style="background-color: #{task.priority.color}")
+          td= task.name
+          td= task.due
+          td: img(src= "#{task.photo}")
+          td
+            input(type="checkbox", name="complete")
+            label Completed
+          td= task.tags
+          td= task.priority.name
